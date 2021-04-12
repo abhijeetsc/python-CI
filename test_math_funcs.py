@@ -7,4 +7,4 @@ def test_add():
 
 
 def test_product():
-    assert math_funcs.product(7, 3) == 22
+    assert math_funcs.product(7, 3) == 21
