@@ -20,5 +20,4 @@ jobs:
       - run:
           name: run tests
           command: |
-            pipenv shell
-            pytest -v --cov=math_funcs
+            pipenv run pytest -v --cov=math_funcs
