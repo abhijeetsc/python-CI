@@ -21,5 +21,4 @@ jobs:
           name: run tests
           command: |
             pipenv shell
-            flake8 --statistics
             pytest -v --cov=math_funcs
